@@ -17,7 +17,11 @@ The following steps are required when writing code using the AutoSync framework:
    $ make auto_autosync some_file.c 
    `````
 4. In the folder [generated](generated/) you can find the new files with the generated code, which can be built as usual.
+[WIP]
 
+# Benchmarks
+The FFT program from the well-known benchmark has been refactored to evaluate AutoSync. The original version can be found [here](https://github.com/SakalisC/Splash-3/blob/master/codes/kernels/fft/fft.c.in).
+The refactored version is [here](examples/benchmark_splash_fft/fft_auto_sync.c).
 
 
 # Contributors
