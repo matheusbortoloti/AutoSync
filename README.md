@@ -20,7 +20,7 @@ The following steps are required when writing code using the AutoSync framework:
 [WIP]
 
 # Benchmarks
-The FFT program from the well-known benchmark has been refactored to evaluate AutoSync. The original version can be found [here](https://github.com/SakalisC/Splash-3/blob/master/codes/kernels/fft/fft.c.in).
+The FFT program from the well-known SPLASH benchmark has been refactored to evaluate AutoSync. The original version can be found [here](https://github.com/SakalisC/Splash-3/blob/master/codes/kernels/fft/fft.c.in).
 The refactored version is [here](examples/benchmark_splash_fft/fft_auto_sync.c).
 
 
